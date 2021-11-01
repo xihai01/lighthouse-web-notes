@@ -78,3 +78,18 @@ However, the node_modules directory is gitignored because package.json will recr
 **Functional Testing** is defined as the testing of complete functionality of some application. For example, if you want to test a certain flow of your web page, such as registering an account, you can automate it with functional testing. In general, functional testing is complex and hard to maintain so you should have only a few of these tests.
 
 **Takewaway**: ALways write as much of unit tests you can before jumping into Integration and/or Functional testing.
+
+## Mocha
+All Mocha tests are built using the blocks **describe** and **it**
+```javascript
+describe('Array', function() {
+  it('should start empty', function() {
+    //test implementation goes here
+  });
+
+  //we can have more its here
+});
+```
+**describe** is used to group individual tests to say what we are testing like "describe how array should work".
+
+**it** is used to create the individual tests that will run to test a specific behaviour like "it should start empty" or "it should return a length of 10".
