@@ -1,4 +1,4 @@
-# W2D1 Asynchronous Programming
+# W3D2 Cookies with Express
 # Lecture Notes
 _________________
 ## Topics

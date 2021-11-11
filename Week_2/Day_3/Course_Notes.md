@@ -1,4 +1,4 @@
-# W2D2 Networking with TCP and HTTP
+# W2D3 Networking with TCP and HTTP
 # Lecture Notes
 _________________
 ## Topics

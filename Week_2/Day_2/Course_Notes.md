@@ -1,4 +1,4 @@
-# W2D1 Asynchronous Programming
+# W2D2 Asynchronous Programming
 # Lecture Notes
 _________________
 ## Topics
