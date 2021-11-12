@@ -1,18 +1,18 @@
-# W2D2 Networking with TCP and HTTP
+# W3D4 Security with Sessions
 # Lecture Notes
 _________________
 ## Topics
-- Callback review
-- Chaining callbacks
-- Error handling
-- Introduction to Promises
-- Promise chaining
-- Promise.all
+
 
 
 # Course Notes
 _________________
-## JSON
-JSON (JavaScript Object Notation) is a universal data format that can be supported by virtually all modern programming languages. Json is a collection of name/value pairs.
+## Storing Passwords Securely
+Never store passwords as plain-text (i.e string) in a database.
 
-The process of serialization converts objects or other data structures into a simple format such as strings that can be easily stored or transmitted between computers.
+Passwords shouldn't be encrypted, they should be hashed. This is because encryption is a reversible process unlike hashing.
+
+For example, to check a user's login password, we just hash their password and match the hashed output with the one stored in the database.
+
+## REST
+REST is a popular set of conventions and practices for structuring routes in web applications.
