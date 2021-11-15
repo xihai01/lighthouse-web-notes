@@ -23,3 +23,5 @@ This repository contains all of the notes taken by [Xihai Luo](https://github.co
   * [Day 2](/Week_3/Day_2)
   * [Day 3](/Week_3/Day_3)
   * [Day 4](/Week_3/Day_4)
+  * [Day 5](/Week_3/Day_5)
+  * [WE](/Week_3/WE)
