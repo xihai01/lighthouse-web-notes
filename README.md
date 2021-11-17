@@ -27,3 +27,4 @@ This repository contains all of the notes taken by [Xihai Luo](https://github.co
   * [WE](/Week_3/WE)
 * [Week 4](/Week_4)
   * [Day 1](/Week_4/Day_1)
+  * [Day 2](/Week_4/Day_2)

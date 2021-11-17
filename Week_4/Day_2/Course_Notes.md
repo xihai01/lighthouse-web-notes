@@ -1,22 +1,24 @@
-# W3D2 Cookies with Express
+# W4D2 Client Side JS and jQuery
 # Lecture Notes
 _________________
 ## Topics
-- Quixk Recap
-- CRUD with express
-- Rendering with EJS
+- Browser Object Model (BOM)
+- DOM
+- Manipulating DOM with JS
+- Manipulating DOM with jQuery
 
-ExpressJS provides us with some tools:
-- routing system
-- templating engine
-- middleware functions
+The BOM is a hierarchy of browser objects that are used to manipulate browser objects such as window and document.
 
-MIddleware are external packages to extend the functionalities of a package such as express.
+So the BOM is higher in level than the DOM. For example, the DOM can be accessed by window.document in the BOM.
 
-Difference between res.send() and res.render():
+Before manipulating the DOM, we need to make sure its fully loaded,
 ```javascript
-res.send(); //=> sends a response using nodejs
+$(document).ready(function() {
+
+});
 ```
 
 # Course Notes
 _________________
+## DOM
+When an event happens, an object is created that contains information about the event and is automatically passed along into the callback function.
